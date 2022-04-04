@@ -1,0 +1,27 @@
+{
+  "name": "tree-sitter-imp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bindings/node",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "CJ T <cjting1128@gmail.com>",
+  "tree-sitter": [
+    {
+      "file-types": [
+        "imp"
+      ],
+      "highlights": [
+        "queries/highlights.scm"
+      ]
+    }
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "nan": "2.15.0",
+    "node-gyp": "9.0.0",
+    "tree-sitter": "0.20.0"
+  }
+}
